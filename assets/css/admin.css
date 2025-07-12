@@ -1,0 +1,115 @@
+
+.woo-custom-badge-meta-box {
+    padding: 10px 0;
+}
+
+.woo-custom-badge-meta-box label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.woo-custom-badge-meta-box select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #fff;
+    color: #333;
+    transition: border-color 0.3s ease;
+}
+
+.woo-custom-badge-meta-box select:focus {
+    border-color: #007cba;
+    outline: none;
+    box-shadow: 0 0 0 1px #007cba;
+}
+
+.woo-custom-badge-meta-box .description {
+    font-size: 12px;
+    color: #666;
+    font-style: italic;
+    margin-top: 8px;
+    line-height: 1.4;
+}
+
+#badge_filter {
+    margin-left: 10px;
+    padding: 4px 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background-color: #fff;
+    font-size: 13px;
+}
+
+#badge_filter:focus {
+    border-color: #007cba;
+    outline: none;
+    box-shadow: 0 0 0 1px #007cba;
+}
+
+#woo_custom_badge_meta_box .hndle {
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    padding: 12px 16px;
+    border-bottom: 1px solid #e1e1e1;
+    background: #f9f9f9;
+}
+
+#woo_custom_badge_meta_box .inside {
+    padding: 16px;
+    background: #fff;
+}
+
+@media (max-width: 782px) {
+    .woo-custom-badge-meta-box select {
+        padding: 10px;
+        font-size: 16px;
+    }
+    
+    #badge_filter {
+        margin: 5px 0;
+        display: block;
+        width: 100%;
+        padding: 8px;
+    }
+}
+
+.woo-custom-badge-meta-box {
+    background: #fff;
+    border-radius: 4px;
+}
+
+.woo-custom-badge-meta-box select option {
+    padding: 5px;
+}
+
+.woo-custom-badge-meta-box select:hover {
+    border-color: #999;
+}
+
+#badge_filter:hover {
+    border-color: #999;
+}
+
+.woo-custom-badge-notice {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    border-left: 4px solid #007cba;
+    background: #f0f8ff;
+    color: #333;
+}
+
+.woo-custom-badge-notice.error {
+    border-left-color: #d63638;
+    background: #ffeaea;
+}
+
+.woo-custom-badge-notice.success {
+    border-left-color: #00a32a;
+    background: #eafaf1;
+}
